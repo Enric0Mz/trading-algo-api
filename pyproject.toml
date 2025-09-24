@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "trading-algo-api"
+version = "0.1.0"
+description = ""
+authors = ["Enrico Marquez <enricovmarquezz@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+fastapi = "^0.117.1"
+uvicorn = "^0.37.0"
+sqlalchemy = "^2.0.43"
+pydantic = "^2.11.9"
+alembic = "^1.16.5"
+python-dotenv = "^1.1.1"
+pytest = "^8.4.2"
+asyncpg = "^0.30.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
